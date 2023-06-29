@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Card, Button, Image, Row, Col } from "react-bootstrap";
-import debug from "sabio-debug";
+import debug from "monefi-debug";
 import PropTypes from "prop-types";
 import BorrowerDebtForm from "components/dashboard/borrowers/BorrowerDebtForm";
 
