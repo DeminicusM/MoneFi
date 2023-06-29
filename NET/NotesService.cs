@@ -1,5 +1,5 @@
-﻿using Sabio.Data.Providers;
-using Sabio.Models.Requests.Notes;
+﻿using MoneFi.Data.Providers;
+using MoneFi.Models.Requests.Notes;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Sabio.Data;
 using System.Data;
-using Sabio.Models.Domain.Notes;
-using Sabio.Services.Interfaces;
-using Sabio.Models.Domain.BorrowerDebt;
-using Sabio.Models.Domain;
+using MoneFi.Models.Domain.Notes;
+using MoneFi.Services.Interfaces;
+using MoneFi.Models.Domain.BorrowerDebt;
+using MoneFi.Models.Domain;
 
-namespace Sabio.Services
+namespace MoneFi.Services
 {
     public class NotesService : INotesService
     {
