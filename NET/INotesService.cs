@@ -1,13 +1,13 @@
-﻿using Sabio.Models.Domain.BorrowerDebt;
-using Sabio.Models.Domain.Notes;
-using Sabio.Models.Requests.Notes;
+﻿using MoneFi.Models.Domain.BorrowerDebt;
+using MoneFi.Models.Domain.Notes;
+using MoneFi.Models.Requests.Notes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Services.Interfaces
+namespace MoneFi.Services.Interfaces
 {
     public interface INotesService
     {
