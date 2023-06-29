@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Domain.BorrowerDebt
+namespace MoneFi.Models.Domain.BorrowerDebt
 {
     public class BorrowerDebt
     {
