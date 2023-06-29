@@ -1,12 +1,12 @@
-﻿using Sabio.Models.Domain.BorrowerDebt;
-using Sabio.Models.Requests.BorrowerDebt;
+﻿using MoneFi.Models.Domain.BorrowerDebt;
+using MoneFi.Models.Requests.BorrowerDebt;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Services.Interfaces
+namespace MoneFi.Services.Interfaces
 {
     public interface IBorrowerDebtService
     {
