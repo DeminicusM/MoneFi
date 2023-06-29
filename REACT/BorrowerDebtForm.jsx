@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import * as borrowerDebtService from "services/borrowerDebtService";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import sabioDebug from "sabio-debug";
+import sabioDebug from "monefi-debug";
 import toastr from "toastr";
 import borrowerDebtSchema from "schemas/borrowerDebtSchema";
 import Button from "react-bootstrap/Button";
 import "toastr/build/toastr.min.css";
 import BorrowerTotalDebtCard from "./BorrowerTotalDebtCard";
 
-const _logger = sabioDebug.extend("BorrowerDebt");
+const _logger = monefiDebug.extend("BorrowerDebt");
 
 function BorrowerDebtForm() {
   const formData = {
