@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import sabioDebug from "sabio-debug";
+import monefiDebug from "monefi-debug";
 import * as notesService from "services/notesService";
 import toastr from "toastr";
 import "toastr/build/toastr.min.css";
@@ -14,7 +14,7 @@ import PropTypes from "prop-types";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 
-const _logger = sabioDebug.extend("Note");
+const _logger = monefiDebug.extend("Note");
 
 function NotesForm(props) {
   const formData = {
