@@ -3,7 +3,7 @@ import { useLocation, useParams, useNavigate } from "react-router-dom";
 import { Card, Button, Row } from "react-bootstrap";
 import * as lectureService from "../../services/lectureService";
 import PropTypes from "prop-types";
-import debug from "sabio-debug";
+import debug from "monefi-debug";
 import toastr from "toastr";
 import "toastr/build/toastr.min.css";
 import { BiArrowToLeft } from "react-icons/bi";
