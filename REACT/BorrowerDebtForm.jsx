@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import * as borrowerDebtService from "services/borrowerDebtService";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import sabioDebug from "monefi-debug";
+import monefiDebug from "monefi-debug";
 import toastr from "toastr";
 import borrowerDebtSchema from "schemas/borrowerDebtSchema";
 import Button from "react-bootstrap/Button";
