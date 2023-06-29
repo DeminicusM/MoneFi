@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Requests.BorrowerDebt
+namespace MoneFi.Models.Requests.BorrowerDebt
 {
     public class BorrowerDebtAddRequest
     {
