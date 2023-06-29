@@ -1,10 +1,10 @@
-﻿using Sabio.Data;
-using Sabio.Data.Extensions;
-using Sabio.Data.Providers;
-using Sabio.Models.Domain.BorrowerDebt;
-using Sabio.Models.Domain.Users;
-using Sabio.Models.Requests.BorrowerDebt;
-using Sabio.Services.Interfaces;
+﻿using MoneFi.Data;
+using MoneFi.Data.Extensions;
+using MoneFi.Data.Providers;
+using MoneFi.Models.Domain.BorrowerDebt;
+using MoneFi.Models.Domain.Users;
+using MoneFi.Models.Requests.BorrowerDebt;
+using MoneFi.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -14,7 +14,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Services
+namespace MoneFi.Services
 {
     public class BorrowerDebtService : IBorrowerDebtService
     {
