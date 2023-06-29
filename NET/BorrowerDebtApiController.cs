@@ -2,16 +2,16 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Build.Framework;
 using Microsoft.Extensions.Logging;
-using Sabio.Models.Domain.BorrowerDebt;
-using Sabio.Models.Requests.BorrowerDebt;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
+using MoneFi.Models.Domain.BorrowerDebt;
+using MoneFi.Models.Requests.BorrowerDebt;
+using MoneFi.Services;
+using MoneFi.Services.Interfaces;
+using MoneFi.Web.Controllers;
+using MoneFi.Web.Models.Responses;
 using System;
 using System.Data.SqlClient;
 
-namespace Sabio.Web.Api.Controllers
+namespace MoneFi.Web.Api.Controllers
 {
     [Route("api/borrowerdebts")]
     [ApiController]
