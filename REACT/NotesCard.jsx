@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useFormikContext } from "formik";
-import sabioDebug from "sabio-debug";
+import monefiDebug from "monefi-debug";
 import Card from "react-bootstrap/Card";
 import Logo from "assets/images/brand/logo/MonefiWhiteBGLogo.png";
 import DOMPurify from "dompurify";
-const _logger = sabioDebug.extend("Note");
+const _logger = monefiDebug.extend("Note");
 
 const NotesCard = () => {
   const [note, setNote] = useState(0);
