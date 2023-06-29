@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Domain.Notes
+namespace MoneFi.Models.Domain.Notes
 {
     public class Note
     {
